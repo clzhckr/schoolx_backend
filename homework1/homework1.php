@@ -1,6 +1,12 @@
 <?php
 function getUserByCityId($id){
-$conn = new mysqli("localhost", "root", "8520", "homework1");
+$dotenv = new Symfony\Component\Dotenv\Dotenv();
+$dotenv->load(__DIR__.'/my.env');
+$host = getenv('MYSQL_HOST');
+$user = getenv('MYSQL_USER');
+$pswd = getenv('MYSQL_PASSWORD');
+$db = getenv('DATABASE_NAME');
+$conn = new mysqli($host, $user, $pswd, $db);
 if($conn->connect_error){
     die("Что-то пошло не так");
 }
