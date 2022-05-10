@@ -4,12 +4,13 @@ namespace ToDoAPI.Models
 {
     public class LoginModel
     {
-        [Required(ErrorMessage = "Username is required")]
-        public string Username { get; set; }
+        [Required(ErrorMessage = "Email is required")]
+        [RegularExpression(@"^[\w!#$%&'*+\-/=?\^_`{|}~]+(\.[\w!#$%&'*+\-/=?\^_`{|}~]+)*"
+            + "@"
+            + @"((([\-\w]+\.)+[a-zA-Z]{2,4})|(([0-9]{1,3}\.){3}[0-9]{1,3}))$",
+            ErrorMessage = "You have entered an invalid email address")]
+        public string Email { get; set; }
 
-        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$",
-            ErrorMessage = "Minimum eight characters, at least one uppercase letter, one lowercase letter, " +
-            "one number and one special character")]
         [Required(ErrorMessage = "Password is required")]
         public string Password { get; set; }
     }

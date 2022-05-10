@@ -29,9 +29,9 @@ namespace ToDoAPI.Models
                 .IsRequired()
                 .HasMaxLength(1);
 
-                /*entity.Property(e => e.DateTime)
-                .IsRequired();
-                .HasMaxLength(30); */
+                entity.Property(e => e.Date)
+                .IsRequired()
+                .HasMaxLength(30); 
 
             });
 

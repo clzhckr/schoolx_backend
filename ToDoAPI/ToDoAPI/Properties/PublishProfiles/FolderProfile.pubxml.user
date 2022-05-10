@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\coolz\OneDrive\Рабочий стол\api</_PublishTargetUrl>
+    <History>True|2022-05-10T12:14:17.1311071Z;True|2022-05-10T15:07:44.8818451+03:00;</History>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SQLConnection">
+      <Value>Server=.%3bDatabase=ToDoDB%3bTrusted_Connection=True%3bIntegrated Security=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ToDoAPI.Models.ApplicationDbContext">
+      <Value>Server=.%3bDatabase=ToDoDB%3bTrusted_Connection=True%3bIntegrated Security=true</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

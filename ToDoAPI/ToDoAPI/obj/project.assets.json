@@ -8127,11 +8127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\coolz\\source\\repos\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
+      "projectUniqueName": "C:\\Users\\coolz\\OneDrive\\Рабочий стол\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
       "projectName": "ToDoAPI",
-      "projectPath": "C:\\Users\\coolz\\source\\repos\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
+      "projectPath": "C:\\Users\\coolz\\OneDrive\\Рабочий стол\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
       "packagesPath": "C:\\Users\\coolz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\coolz\\source\\repos\\ToDoAPI\\ToDoAPI\\obj\\",
+      "outputPath": "C:\\Users\\coolz\\OneDrive\\Рабочий стол\\ToDoAPI\\ToDoAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\coolz\\AppData\\Roaming\\NuGet\\NuGet.Config",

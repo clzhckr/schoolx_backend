@@ -222,6 +222,11 @@ namespace ToDoAPI.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Date")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
                     b.Property<string>("ItemDescription")
                         .IsRequired()
                         .HasMaxLength(100)

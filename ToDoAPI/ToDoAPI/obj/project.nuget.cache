@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6O/Db3uqE1ReXobibap/z+us9goCw4LTXcju6vQaovy63WQzDWrW/LbxuQZl4NKW/L6SSZKyCi/yfSaFcBj+6Q==",
+  "dgSpecHash": "htyTlTgLp7Fs0xZQ1WaMgn5A5x900Asi0PG1wtR9I+hEV7HES6aF9AIEMkYyeew3/8kMaj+N5BQXJU9ZRJ/zRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\coolz\\source\\repos\\TodoApi\\ToDoAPI\\ToDoAPI.csproj",
+  "projectFilePath": "C:\\Users\\coolz\\OneDrive\\Рабочий стол\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\coolz\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\coolz\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
