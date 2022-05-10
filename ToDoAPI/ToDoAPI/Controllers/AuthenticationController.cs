@@ -71,7 +71,7 @@ namespace ToDoAPI.Controllers
         [Route("register")]
         public async Task<IActionResult> Register([FromBody] RegisterModel model)
         {
-            var userExists = await userManager.FindByNameAsync(model.UserName);
+            var userExists = await userManager.FindByEmailAsync(model.Email);
 
             if (userExists != null)
             {

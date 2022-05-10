@@ -4,7 +4,7 @@ namespace ToDoAPI.Models
 {
     public class RegisterModel
     {
-       public string UserName { get; set; }
+   
         [Required(ErrorMessage = "Email is required")]
         [RegularExpression(@"^[\w!#$%&'*+\-/=?\^_`{|}~]+(\.[\w!#$%&'*+\-/=?\^_`{|}~]+)*"
             + "@"
