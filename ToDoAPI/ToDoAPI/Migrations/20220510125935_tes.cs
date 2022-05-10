@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ToDoAPI.Migrations
 {
-    public partial class test : Migration
+    public partial class tes : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
