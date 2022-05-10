@@ -4,14 +4,16 @@ namespace ToDoAPI.Models
 {
     public class RegisterModel
     {
-   
-        [Required(ErrorMessage = "Email is required")]
-        [RegularExpression(@"^[\w!#$%&'*+\-/=?\^_`{|}~]+(\.[\w!#$%&'*+\-/=?\^_`{|}~]+)*"
-            + "@"
-            + @"((([\-\w]+\.)+[a-zA-Z]{2,4})|(([0-9]{1,3}\.){3}[0-9]{1,3}))$",
-            ErrorMessage = "You have entered an invalid email address")]
-        public string Email { get; set; }
 
+        [Required(ErrorMessage = "Username is required")]
+        public string Username { get; set; }
+
+        [Required(ErrorMessage = "Username is required")]
+        [RegularExpression(@"^[\w!#$%&'*+\-/=?\^_`{|}~]+(\.[\w!#$%&'*+\-/=?\^_`{|}~]+)*"
+           + "@"
+           + @"((([\-\w]+\.)+[a-zA-Z]{2,4})|(([0-9]{1,3}\.){3}[0-9]{1,3}))$",
+           ErrorMessage = "You have entered an invalid email address")]
+        public string Email { get; set; }
 
         [Required(ErrorMessage = "Password is required")]
         public string Password { get; set; }

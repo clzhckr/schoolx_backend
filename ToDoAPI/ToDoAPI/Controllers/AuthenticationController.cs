@@ -32,14 +32,14 @@ namespace ToDoAPI.Controllers
         [Route("login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
-            var user = await userManager.FindByNameAsync(model.Email);
+            var user = await userManager.FindByNameAsync(model.Username);
 
             if (user != null && await userManager.CheckPasswordAsync(user, model.Password))
             {
                 var userRoles = await userManager.GetRolesAsync(user);
                 var authClaims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Email, user.Email),
+                    new Claim(ClaimTypes.Name, user.UserName),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                 };
 
@@ -71,7 +71,7 @@ namespace ToDoAPI.Controllers
         [Route("register")]
         public async Task<IActionResult> Register([FromBody] RegisterModel model)
         {
-            var userExists = await userManager.FindByEmailAsync(model.Email);
+            var userExists = await userManager.FindByNameAsync(model.Username);
 
             if (userExists != null)
             {
@@ -80,9 +80,9 @@ namespace ToDoAPI.Controllers
 
             ApplicationUser user = new ApplicationUser()
             { 
-                UserName = model.Email,
                 Email = model.Email,
-                SecurityStamp = Guid.NewGuid().ToString()
+                SecurityStamp = Guid.NewGuid().ToString(),
+                UserName = model.Username
             };
 
             var result = await userManager.CreateAsync(user, model.Password);
