@@ -71,7 +71,7 @@ namespace ToDoAPI.Controllers
         [Route("register")]
         public async Task<IActionResult> Register([FromBody] RegisterModel model)
         {
-            var userExists = await userManager.FindByNameAsync(model.Email);
+            var userExists = await userManager.FindByEmailAsync(model.Email);
 
             if (userExists != null)
             {
@@ -79,7 +79,7 @@ namespace ToDoAPI.Controllers
             };
 
             ApplicationUser user = new ApplicationUser()
-            {
+            { 
                 Email = model.Email,
                 SecurityStamp = Guid.NewGuid().ToString()
             };
