@@ -10,8 +10,8 @@ using ToDoAPI.Models;
 namespace ToDoAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220510125935_tes")]
-    partial class tes
+    [Migration("20220510134111_test")]
+    partial class test
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
