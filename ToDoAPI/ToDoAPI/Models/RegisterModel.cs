@@ -8,7 +8,7 @@ namespace ToDoAPI.Models
         [Required(ErrorMessage = "Username is required")]
         public string Username { get; set; }
 
-        [Required(ErrorMessage = "Username is required")]
+        
         [RegularExpression(@"^[\w!#$%&'*+\-/=?\^_`{|}~]+(\.[\w!#$%&'*+\-/=?\^_`{|}~]+)*"
            + "@"
            + @"((([\-\w]+\.)+[a-zA-Z]{2,4})|(([0-9]{1,3}\.){3}[0-9]{1,3}))$",
