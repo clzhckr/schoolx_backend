@@ -79,7 +79,7 @@ namespace ToDoAPI.Controllers
             };
 
             ApplicationUser user = new ApplicationUser()
-            {
+            { 
                 Email = model.Email,
                 SecurityStamp = Guid.NewGuid().ToString(),
                 UserName = model.Username

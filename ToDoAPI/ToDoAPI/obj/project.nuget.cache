@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6O/Db3uqE1ReXobibap/z+us9goCw4LTXcju6vQaovy63WQzDWrW/LbxuQZl4NKW/L6SSZKyCi/yfSaFcBj+6Q==",
+  "dgSpecHash": "t/z/CsBpdd1SyxoGvAzUxkDelvBSbRnDGX1493vbSAomCVALbeKy8rIsxwe1PJbdug7qP2NToWKLprDQOWZwyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\coolz\\source\\repos\\TodoApi\\ToDoAPI\\ToDoAPI.csproj",
+  "projectFilePath": "C:\\Docs\\GitHub\\schoolx_backend\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\coolz\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\coolz\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\coolz\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "C:\\Users\\coolz\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\coolz\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.16\\microsoft.aspnetcore.authentication.jwtbearer.5.0.16.nupkg.sha512",
+    "C:\\Users\\coolz\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\coolz\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.16\\microsoft.aspnetcore.cryptography.internal.5.0.16.nupkg.sha512",
     "C:\\Users\\coolz\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.16\\microsoft.aspnetcore.cryptography.keyderivation.5.0.16.nupkg.sha512",
     "C:\\Users\\coolz\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\2.2.0\\microsoft.aspnetcore.dataprotection.2.2.0.nupkg.sha512",

@@ -20,6 +20,8 @@ namespace ToDoAPI.Models
         [Column(TypeName = "bit")]
         public bool ItemStatus { get; set; }
 
+        [Column(TypeName = "nvarchar(100)")]
+        public string Date { get; set; }
         
        /* [Required(ErrorMessage = "Date is required")]
         [Column(TypeName = "Date")]

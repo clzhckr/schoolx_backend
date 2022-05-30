@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\coolz\\source\\repos\\TodoApi\\ToDoAPI\\ToDoAPI.csproj": {}
+    "C:\\Docs\\GitHub\\schoolx_backend\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\coolz\\source\\repos\\TodoApi\\ToDoAPI\\ToDoAPI.csproj": {
+    "C:\\Docs\\GitHub\\schoolx_backend\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\coolz\\source\\repos\\TodoApi\\ToDoAPI\\ToDoAPI.csproj",
+        "projectUniqueName": "C:\\Docs\\GitHub\\schoolx_backend\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
         "projectName": "ToDoAPI",
-        "projectPath": "C:\\Users\\coolz\\source\\repos\\TodoApi\\ToDoAPI\\ToDoAPI.csproj",
+        "projectPath": "C:\\Docs\\GitHub\\schoolx_backend\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
         "packagesPath": "C:\\Users\\coolz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\coolz\\source\\repos\\TodoApi\\ToDoAPI\\obj\\",
+        "outputPath": "C:\\Docs\\GitHub\\schoolx_backend\\ToDoAPI\\ToDoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\coolz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.16, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
